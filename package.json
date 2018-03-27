@@ -26,7 +26,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.prod.js --mode production",
+    "build": "webpack --config webpack.prod.js",
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open --config webpack.dev.js"
   },
