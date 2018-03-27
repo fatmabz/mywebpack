@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2015", //version of JS, the compiler should transpile
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strict": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true, // compiltaion not made if there are error
+    "sourceMap": true, // to debug TS files during runtime we need source maps
+    //"emitDecoratorMetadata": true, // to have this metadata(for type of DI) present in the output
+    "outDir": "../dist"
+  }
+}
